@@ -1,0 +1,3 @@
+$folder = 'Playwright Built-In Locators (Session 2)'; .\venv\Scripts\python.exe -m pytest "$folder\test_locators.py::test_verify_pw_locator" -q --headed --browser firefox
+
+$folder = 'Playwright Built-In Locators (Session 2)'; .\venv\Scripts\python.exe -m pytest "$folder\test_locators.py::test_verify_pw_locator_text" -q --headed --browser firefox

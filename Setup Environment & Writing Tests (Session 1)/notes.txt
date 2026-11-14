@@ -1,0 +1,34 @@
+headless: no UI (Default mode)
+headed: we can see the UI with all the interactions
+
+-----------------------------------------------------
+
+synchonous: tasks are executed one by one (the others are waiting when the current is on progress)
+asynchronous: a task is executed without waiting for the previous one to be done, they can be performed simultaneously
+
+Web automation (synchonous mode)
+API automation (asynchronous mode)
+
+-----------------------------------------------------
+
+Commandes pytest pour test_playwright.py
+
+Depuis la racine du projet, avec l'environnement virtuel (venv) activé, définir une variable PowerShell courte pour le chemin du test :
+$testFile = ".\Setup Environment & Writing Tests (Session 1)\test_playwright.py"
+
+Collecter les tests :
+python -m pytest $testFile --collect-only -q
+
+Installer les navigateurs gérés par Playwright (une fois par navigateur nécessaire) :
+python -m playwright install chromium
+python -m playwright install firefox
+
+Exécuter les tests avec Chromium, navigateur visible :
+python -m pytest $testFile --browser chromium --headed -v
+
+Exécuter les tests avec Firefox, navigateur visible :
+python -m pytest $testFile --browser firefox --headed -v
+
+Exécution parallèle (commandes proposées, à lancer après installation de pytest-xdist) :
+python -m pip install pytest-xdist
+python -m pytest $testFile --browser firefox -n auto
