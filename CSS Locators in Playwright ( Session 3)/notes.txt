@@ -1,0 +1,30 @@
+different combinations of CSS locators can be used to locate elements on a web page:
+
+- tag id: tag#id
+- tag class: tag.class
+- tag attribute: [attribute=value]
+- tag class attribute: tag.class[attribute=value]
+
+
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_verify_css_locators_tag_id" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_verify_css_locators_tag_class" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_verify_css_locators_tag_attribute" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_verify_css_locators_tag_class_attribute" -q --headed --browser firefox
+
+--------------------------------------------------------
+
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_verify_logo_visibility" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_verify_products_count" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_print_first_product_name" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_print_last_product_name" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_print_nth_product_name" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_print_all_product_titles" -q --headed --browser firefox
+$folder = 'CSS Locators in Playwright ( Session 3)'; .\venv\Scripts\python.exe -m pytest "$folder\test_css_locators.py::test_print_footer_links" -q --headed --browser firefox
+
+chromewebstore --> selectorhub --> add to chrome 
+easy to select css elements
+
+selectorhub element research: 
+p[class^='ai'] - starts with 'ai'
+p[class$='ai'] - ends with 'ai'
+p[class*='ai'] - contains 'ai'
