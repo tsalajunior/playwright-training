@@ -1,0 +1,11 @@
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_inputbox.py::test_input_box" -q --headed --browser firefox
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_radiobuttons.py::test_radio_buttons" -q --headed --browser firefox
+
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_checkboxes" -q --headed --browser firefox
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_check_multiple_checkboxes" -q --headed --browser firefox
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_last_three_checkboxes" -q --headed --browser firefox 
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_specific_checkboxes" -q --headed --browser firefox
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_uncheck_checkboxes" -q --headed --browser firefox 
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_toggling_checkboxes" -q --headed --browser firefox
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_random_checkboxes" -q --headed --browser firefox
+$folder = 'How to Handle Input Box, Radio Buttons And Checkboxes ( Session 5)'; .\venv\Scripts\python.exe -m pytest "$folder\test_checkboxes.py::test_select_checkboxes_by_label_and_input_value" -q --headed --browser firefox
