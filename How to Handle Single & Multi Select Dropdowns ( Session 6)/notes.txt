@@ -1,0 +1,6 @@
+$folder = 'How to Handle Single & Multi Select Dropdowns ( Session 6)'; .\venv\Scripts\python.exe -m pytest "$folder\test_single_selectdropdown.py::test_single_select_dropdown" -q --headed --browser firefox
+.\venv\Scripts\python.exe -m pytest -s "How to Handle Single & Multi Select Dropdowns ( Session 6)\test_single_selectdropdown.py::test_single_select_dropdown"
+
+$folder = 'How to Handle Single & Multi Select Dropdowns ( Session 6)'; .\venv\Scripts\python.exe -m pytest "$folder\test_multiple_selectdropdown.py::test_multiple_select_dropdown" -q --headed --browser firefox
+
+.\venv\Scripts\python.exe -m pytest -s "How to Handle Single & Multi Select Dropdowns ( Session 6)\test_sorted_dropdown.py::test_sorted_dropdown"
