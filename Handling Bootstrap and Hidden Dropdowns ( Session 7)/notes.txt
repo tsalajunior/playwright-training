@@ -1,0 +1,14 @@
+$folder = 'Handling Bootstrap and Hidden Dropdowns ( Session 7)'; .\venv\Scripts\python.exe -m pytest "$folder\test_bootstrap_dropdown.py::test_bootstrapdropdown" -q --headed --browser firefox
+
+dropdowns:
+
+1- Select dropdowns: have 'select' tag with options 
+2- Bootstrap dropdowns: have 'div' or 'button' tags, options are embedded in 'div' tags
+3- Hidden Dropdowns: options are hidden from de DOM 
+
+inner_text(): return the actual text
+text_content(): return the content, with special characters and spaces
+
+all_inner_texts() vs all_text_contents(): get text of a group of elements
+
+all():
