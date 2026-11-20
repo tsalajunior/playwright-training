@@ -1,0 +1,1 @@
+python -m pytest -s ".\Handling Web Tables ( Session 8)\test_static_tables.py"
