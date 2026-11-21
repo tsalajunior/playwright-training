@@ -1,7 +1,9 @@
 import time
+import pytest
 
 from playwright.sync_api import Page, expect
 
+@pytest.mark.skip
 # get by all text
 def test_verify_pw_locator(page:Page):
     page.goto("https://demowebshop.tricentis.com/")

@@ -1,0 +1,4 @@
+python -m pytest -s ".\Handling Dynamic & Pagination Web Tables ( Session 9)\test_dynamic_tables.py" --headed --browser firefox
+python -m pytest -s ".\Handling Dynamic & Pagination Web Tables ( Session 9)\test_pagination_tables.py" --headed --browser firefox
+
+python -m pytest -s ".\Handling Dynamic & Pagination Web Tables ( Session 9)\test_filters_tables.py" --headed --browser firefox
