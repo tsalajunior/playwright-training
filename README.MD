@@ -6,10 +6,10 @@ Projet d'apprentissage accompagné de la playlist YouTube [Playwright with Pytho
 
 Les exemples locaux couvrent actuellement les deux premières sessions :
 
-| Dossier | Notions pratiquees |
-| --- | --- |
+| Dossier                                           | Notions pratiquees                                                                                                       |
+| ------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------ |
 | `Setup Environment & Writing Tests (Session 1)` | Premiers tests Pytest avec Playwright : navigation vers le Demo Web Shop, vérification de l'URL et du titre de la page. |
-| `Playwright Built-In Locators (Session 2)` | Localisation d'éléments avec `get_by_text()` et vérification de leur visibilité. |
+| `Playwright Built-In Locators (Session 2)`      | Localisation d'éléments avec `get_by_text()` et vérification de leur visibilité.                                   |
 
 La playlist sert de support de cours et va plus loin que les exemples présents dans ce dépôt. Elle aborde notamment les locators, les tests pilotés par les données, la capture de vidéos et de traces, les tests instables et la génération de rapports. Ces sujets ne sont pas tous implémentés dans le projet actuel.
 

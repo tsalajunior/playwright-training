@@ -1,0 +1,4 @@
+python -m pytest -s ".\Handling Dialogs and Frames in Playwright ( Session 11)\test_dialogs.py" --headed --browser firefox
+
+python -m pytest -s ".\Handling Dialogs and Frames in Playwright ( Session 11)\test_frames.py" --headed --browser firefox
+
