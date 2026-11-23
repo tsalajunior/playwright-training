@@ -1,0 +1,7 @@
+python -m pytest -s ".\Mouse Hover, Right Click, Double Click, Drag & Drop ( Session 12)\test_mouse_action.py" --headed --browser firefox
+
+python -m pytest -s ".\Mouse Hover, Right Click, Double Click, Drag & Drop ( Session 12)\test_right_click.py" --headed --browser firefox
+
+python -m pytest -s ".\Mouse Hover, Right Click, Double Click, Drag & Drop ( Session 12)\test_double_click.py" --headed --browser firefox
+
+python -m pytest -s ".\Mouse Hover, Right Click, Double Click, Drag & Drop ( Session 12)\test_drag_drop.py" --headed --browser firefox
