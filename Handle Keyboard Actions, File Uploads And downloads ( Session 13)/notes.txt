@@ -1,0 +1,5 @@
+python -m pytest -s ".\Handle Keyboard Actions, File Uploads And downloads ( Session 13)\test_keyboard_event.py" --headed --browser firefox
+
+python -m pytest -s ".\Handle Keyboard Actions, File Uploads And downloads ( Session 13)\test_files_upload.py" --headed --browser firefox
+
+python -m pytest -s ".\Handle Keyboard Actions, File Uploads And downloads ( Session 13)\test_files_download.py" --headed --browser firefox
