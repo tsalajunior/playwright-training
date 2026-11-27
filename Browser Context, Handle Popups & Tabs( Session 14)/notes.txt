@@ -1,0 +1,21 @@
+browser --> chomium, firefox, webkit, etc.
+page --> tab, pop up, window
+browser --> context (user profile) --> pages
+
+type        |    event 
+----------------------
+alerts/dialogs --> dialog 
+download files --> download
+pop up --> popup
+tabs --> page
+
+page.on() with lambda function
+
+
+python -m pytest -s ".\Browser Context, Handle Popups & Tabs( Session 14)\test_browser_context.py" --headed --browser firefox
+
+python -m pytest -s ".\Browser Context, Handle Popups & Tabs( Session 14)\test_popup.py" --headed --browser firefox
+
+python -m pytest -s ".\Browser Context, Handle Popups & Tabs( Session 14)\test_auth_popup.py" --headed --browser firefox
+
+python -m pytest -s ".\Browser Context, Handle Popups & Tabs( Session 14)\test_tabs.py" --headed --browser firefox
